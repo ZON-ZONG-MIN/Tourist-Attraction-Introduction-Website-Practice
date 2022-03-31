@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!--================== FAVICON ==================-->
+    <link rel="shortcut icon" href="./img/calculator.png" type="image/x-icon">
+
+    <!--================== BOXICONS ==================-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+ 
+    <!--================== CSS ==================-->
+    <link rel="stylesheet" href="calculator_style.css">
+ 
+    <!--================== JS ==================-->
+    <script src="calculator_app.js" defer></script>
+    
+    <table border="1" class="table_ID">
+        <tr>
+            <th>Class</th>
+            <th>Name</th>
+            <th>ID</th>
+        </tr>
+        <tr>
+            <td>資工所</td>
+            <td>鄒宗民</td>
+            <td>609410161</td>
+        </tr>
+    </table>
+</head>
+  <body>
+    <div class="calculator-grid">
+      <div class="output">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
+      </div>
+      <button data-number class="number">7</button>
+      <button data-number class="number">8</button>
+      <button data-number class="number">9</button>
+      <button data-operation class="symbol">+</button>
+      <button data-operation class="symbol">x<sup>n</sup></button>
+
+      <button data-number class="number">4</button>
+      <button data-number class="number">5</button>
+      <button data-number class="number">6</button>
+      <button data-operation class="symbol">-</button>
+      <button data-operation class="symbol">&</button>
+
+      <button data-number class="number">1</button>
+      <button data-number class="number">2</button>
+      <button data-number class="number">3</button>
+      <button data-operation class="symbol">*</button>
+      <button data-operation class="symbol">|</button>
+
+      <button data-number class="number">0</button>
+      <button data-number class="number">00</button>
+      <button data-number class="number">.</button>
+      <button data-operation class="symbol">÷</button>
+      <button data-operation class="symbol">^</button>
+      <!-- <button class="span-two">AC</button> -->
+      <button data-all-clear class="number_2" style="border-bottom-left-radius: 23px;">AC</button>
+      <button data-delete class="number_2"><i class='bx bxs-tag-x' ></i></button>
+      <button data-equals class="equal">=</button>
+      <button data-operation class="symbol">%</button>
+      <button data-operation class="symbol" style="border-bottom-right-radius: 23px;">~</button>
+    </div>
+  </body>
+</html>
