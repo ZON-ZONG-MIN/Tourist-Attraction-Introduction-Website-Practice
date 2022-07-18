@@ -2,4 +2,4 @@
 
 HTML/CSS/JavaScript Practice
 
-🔵 Link : https://rufus9322.netlify.app/
+🔵 Demo : https://rufus9322.netlify.app/
